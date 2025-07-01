@@ -1,0 +1,15 @@
+{
+  "name": "pdf-backend-service",
+  "version": "1.0.0",
+  "description": "Backend service for PDF generation using Puppeteer",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "puppeteer": "^24.10.1"
+  }
+}
