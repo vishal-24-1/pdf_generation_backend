@@ -8,7 +8,7 @@ const puppeteer = require("puppeteer");
 
     const page = await browser.newPage();
 
-    await page.goto("http://localhost:5173/report", {
+    await page.goto("https://main.d2tv1dv1yi6ad.amplifyapp.com/report", {
         waitUntil: "networkidle0",
     });
 
